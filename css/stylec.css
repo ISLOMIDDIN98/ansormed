@@ -1,113 +1,228 @@
+bady{
+  font-size: 14px;
+  line-height: 21px;
+  font-family: "Open Sans","sans-serif";
+}
+
 .site-header{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  width: 1440px;
+  height: 97.94px;
   background-color: #E5E5E5;
 }
+
 ul {
   list-style-type: none;
 
 }
+
+.ansormed-nav {
+  display: flex;
+  align-items: center;
+}
+
+.link-ul {
+  display: flex;
+}
 .sitenav-link{
-  Font-size: 14px;
-  Line-height: 21px;
+
   Line-height: 150%;
   text-decoration: none;
   color: #222222;
 
 }
+.ansor{
+  font-family:"Open Sans","sans-serif";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 33px;
+}
 
 /* main */
 .main-link{
-font-size: 14px;
-line-height: 21px;
-color: #FFFFFF;
-background-color: #DE2E54;
 
+  color: #FFFFFF;
+  background-color: #DE2E54;
+  font-family: "Open Sans Condensed","sans-serif";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 150%;
+  text-decoration: none;
 }
-.hero{
+
+.seaction-hero {
+ display: flex;
+ justify-content: space-around;
+align-items: center;
+ width: 1440px;
+  height: 533px;
   background-color: #0EB4C1;
   color:#FFFFFF ;
 
 }
+.hero{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
+
+
+
+
+
+
+}
 .hero-heading{
   width: 500px;
   font-size: 36px;
-line-height: 120%
+  font-family: "Open Sans Condensed","sans-serif";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 120%;
 }
 
 .hero-text{
   width: 440px;
   font-size: 18px;
-line-height: 150%;
+  font-family: "Open Sans","sans-serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 150%;
 }
 
 .hero-img{
-width: 423px;
-height: 504px;
+  width: 423px;
+  height: 504px;
+
 }
 
 /* features */
+
+.features-div{
+  width: 864px;
+  height: 1040px;
+}
+
 .features-heading{
- color: black;
+  color: black;
   width: 133px;
   font-size: 36px;
-line-height: 120%;
+  font-family: "Open Sans Condensed","sans-serif";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 120%;
+
+}
+.features-ul {
+  display: flex;
+  flex-direction: column;
 }
 .features img{
-color: rgba(0, 107, 116, 0.3);
-width: 200px;
-height: 200px;
+  color: rgba(0, 107, 116, 0.3);
+  width: 200px;
+  height: 200px;
 }
 .feature{
+  display: flex;
+
   width: 600px;
   font-size: 16px;
-line-height: 150%;
+  line-height: 150%;
 }
 .feature-title{
   color: #222222;
+  font-family: "Open Sans Condensed","sans-serif";
+  font-style: normal;
+  font-weight: bold;
   font-size: 24px;
+  line-height: 120%;
   line-height: 120%;
 }
 .feature-info{
   color: #444444;
   width: 600px;
+  font-family: "Open Sans","sans-serif";
+  font-style: normal;
+  font-weight: normal;
   font-size: 16px;
   line-height: 150%;
 }
 
 .promo{
- background-color:  #0EB4C1;
- width: 1440px;
- height: 253px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color:  #0EB4C1;
+  width: 1440px;
+  height: 253px;
+}
+.promo-li {
+display: flex;
 }
 .promo-heading{
   color: #FFFFFF;
   width: 365px;
   height: 43px;
+  font-family: "Open Sans Condensed","sans-serif";
+  font-style: normal;
+  font-weight: bold;
   font-size: 36px;
-line-height: 120%;
+  line-height: 120%;
 }
 .promo-title{
   color: #FFFFFF;
   width: 146px;
-height: 18px;
+  height: 18px;
+  font-family: "Open Sans Condensed","sans-serif";
+  font-style: normal;
+  font-weight: bold;
   font-size: 15px;
   line-height: 120%;
   text-decoration: none;
-}
-.footer{
-  background-color: #222222;
-  width: 1440px;
-height: 97.94px;
+  border: 2px;
+  border-style: solid;
 
 }
-.footer logo{
-  width: 50px;
-  height: 49.94px;
+.promo-title:hover {
+background-color: red;
+color: #fff;
+border-color: red;
 }
+.main-link:hover{
+color: #fff;
+background-color:  rgba(222, 46, 84, 0.8);
+
+}
+.footer{
+
+
+  background-color: #222222;
+  position: absolute;
+width: 1440px;
+height: 90px;
+left: 6px;
+top: px;
+}
+
+
+
+
 .site-footer-link{
-  Font-size: 14px;
-  Line-height: 21px;
-  Line-height: 150%;
+
+  font-family: "Open Sans Condensed","sans-serif";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 150%;
   text-decoration: none;
-  color: #FFFFFF
+  color:#fff
 }
