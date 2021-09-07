@@ -3,9 +3,12 @@ bady{
   line-height: 21px;
   font-family: "Open Sans","sans-serif";
 }
+*:focus{
+  outline: 2PX dotted #1120e6;
+outline-offset: 3px;
+}
 ul {
   list-style-type: none;
-
 }
 a {
   text-decoration: none;
